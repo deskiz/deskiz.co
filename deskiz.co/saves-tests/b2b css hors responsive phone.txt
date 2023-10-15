@@ -1,0 +1,298 @@
+
+/*--------Main Components---------*/
+#header_hp_b2b {
+  background: var(--main-colorsbleu-fonc-deskiz, rgba(3, 43, 68, 1));
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding-top: 1%;
+  padding-bottom: 7%;
+}
+
+#header_hp_b2b .container {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap : 1em 3.5em;
+}
+/*--------Fin Main Components---------*/
+
+
+/*--------Title---------*/
+#header_hp_b2b_hp_b2b.item {
+  font-family: Alpino;
+}
+
+#header_hp_b2b strong {
+  position: relative;
+}
+
+#header_hp_b2b strong::before {
+  /* Highlight color */
+  background-color:var(--main-colorsrouge-deskiz);
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 85%;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+}
+
+#header_hp_b2b .item.item-1 h1 {
+  color: var(--main-colors-blanc-deskiz, #FFF);
+  font-family: Alpino;
+  max-width: 1150px;
+  font-size: calc(3.75em + 1.25vw);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -2.55px;
+  position: relative; /* Ajoutez cette propriété */
+  z-index: 2; /* Changez le z-index en 2 pour placer au-dessus de strong::before */
+}
+/*--------Fin du Title---------*/
+
+
+/*--------Album Photo - Header---------*/
+#header_hp_b2b .item.item-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: var(--main-colorsrouge-deskiz);
+  margin-top: 50px;
+  border-radius: 5px;
+  transform: rotate(-2deg);
+}
+
+#header_hp_b2b .container .item.item-2 .img_header_true {
+  background-image: url('../img/company/figma/figma-foodtruck.png'); /* Chemin vers votre image */
+  background-size: cover; /* L'image couvrira toute la div tout en conservant ses proportions */
+  background-position: center; /* Centre l'image horizontalement et verticalement */
+  width: calc(95% + 5%);
+  height: calc(100% + 5%);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transform: rotate(2deg);
+  border: 5px solid;
+  border-color: var(--main-colorsblanc-deskiz);
+  background-color: var(--main-colorsbleu-deskiz);
+  border-radius: 5px;
+  z-index: 11;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#header_hp_b2b .container .item.item-2 .img_header_blue {
+  width: calc(95% + 5%);
+  height: calc(100% + 5%);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transform: rotate(5deg);
+  background-color: var(--main-colorsbleu-deskiz);
+  border-radius: 5px;
+  z-index: 10;
+  max-width: 100%;
+  max-height: 100%;
+}
+/*--------Album Photo - Header---------*/
+
+
+/*--------------Début de Form de connexion-------------*/
+#header_hp_b2b .container .item.item-1 .wrapper {
+  padding-right: 15%;
+}
+
+#header_hp_b2b .form_connexion {
+  padding: 25px 22px;
+  background-color: var(--main-colorsblanc-deskiz, rgba(255, 255, 255, 1));
+  border-radius: 5px;
+}
+
+#header_hp_b2b .container .item.item-1 .form_connexion form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#header_hp_b2b .container .item.item-1 .form_connexion label {
+  color: var(--main-colorsbleu-fonc-deskiz);
+  font-family: alpinobold;
+  font-size: calc(1.25em + 0.125vw);
+  letter-spacing: -0.35px;
+  margin-bottom: -5px;
+}
+
+#header_hp_b2b .container .item.item-1 .form_connexion input {
+  border-radius: 3.598px;
+  border: 0.6px solid var(--secondary-colors-bleu-cass-deskiz, #64879C);
+  background: var(--secondary-colors-bleu-blanc-deskiz, #F1FAFF);
+  display: flex;
+  padding: 16px;
+  width: auto;
+  color: var(--secondary-colors-bleu-cass-deskiz, #64879C);
+  font-family: Alpino;
+  font-size: calc(1.125em + 0.125vw);
+  font-style: normal;
+  font-weight: 311;
+  line-height: 105%; /* 25.183px */
+  letter-spacing: -0.72px;
+}
+
+#header_hp_b2b .container .item.item-1 .form_connexion img {
+  width: 16.8px;
+ height: 16.778px;
+}
+
+#header_hp_b2b .container .item.item-1 .form_connexion a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: -5px;
+  gap: 10px;
+  width: 100%;
+  height: 1.7em;
+  color: var(--main-colors-bleu-fonc-deskiz, #032B44);
+  font-family: Alpino;
+  font-size: calc(1.125em + 0.125vw);
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  border-radius: 3.598px;
+  border-top: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-right: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-bottom: 3.5px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-left: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  background: var(--main-colors-jaune-deskiz, #FDC800);
+  transition: all 0.15s linear;
+}
+
+#header_hp_b2b .container .item.item-1 .separator {
+  display: flex;
+  padding: 25px 5%;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#header_hp_b2b .container .item.item-1 .separator p {
+  color: var(--main-colors-blanc-deskiz, #FFF);
+  text-align: center;
+  font-family: Eskool;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%; 
+}
+
+#header_hp_b2b .container .item.item-1 .separator div {
+  background: var(--main-colors-blanc-deskiz, #FFF);
+  display: flex;
+  height: 1px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+
+/*Animation UI*/
+#header_hp_b2b .container .item.item-1 .form_connexion a:hover {
+  border-top: 3.5px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-right: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-bottom: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-left: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+}
+/*--------------Fin de Form de connexion-------------*/
+
+
+/*--------------Alternatives de connexion------------*/
+#header_hp_b2b .container .item.item-1 .alternatives_connexion {
+  background: var(--secondary-colors-bleu-blanc-deskiz, #F1FAFF);
+  justify-content: space-between;
+  display: flex;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 12px 18px;
+}
+
+#header_hp_b2b .container .item.item-1 .alternatives_connexion .socials_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+#header_hp_b2b .container .item.item-1 .alternatives_connexion p {
+  color: var(--main-colors-bleu-fonc-deskiz, #032B44);
+  font-family: Alpino;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+/*--------------FIN Alternatives de connexion------------*/
+
+
+/*--------------Boutons d'inscription------------*/
+#header_hp_b2b .container .item.item-1 .form_inscription {
+  background: var(--secondary-colors-bleu-blanc-deskiz, #F1FAFF);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 12px 18px;
+  margin-top : 12px;
+}
+
+#header_hp_b2b .container .item.item-1 .form_inscription .button_inscription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#header_hp_b2b .container .item.item-1 .form_inscription .button_inscription a {
+  display: flex;
+  padding: 4.797px 22.785px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  border-top: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-right: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-bottom: 3.5px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-left: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  background: var(--main-colors-jaune-deskiz, #FDC800);
+  color: var(--main-colors-bleu-fonc-deskiz, #032B44);
+  font-family: Alpino;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  text-decoration: none;
+  transition: all 0.15s linear;
+}
+
+#header_hp_b2b .container .item.item-1 .form_inscription p {
+  color: var(--main-colors-bleu-fonc-deskiz, #032B44);
+  font-family: Alpino;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+
+/*Animation UI*/
+#header_hp_b2b .container .item.item-1 .form_inscription .button_inscription a:hover {
+  border-top: 3.5px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-right: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-bottom: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+  border-left: 1.2px solid var(--main-colors-bleu-fonc-deskiz, #032B44);
+}

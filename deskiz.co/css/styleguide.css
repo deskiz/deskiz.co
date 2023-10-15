@@ -1,0 +1,260 @@
+/*------TITLE HIERARCHY------*/
+/*---Font Uploads---*/
+@font-face {
+    font-family: 'alpinoblack';
+    src: url('../font/alpino-black-webfont.woff2') format('woff2'),
+         url('../font/alpino-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alpinobold';
+    src: url('../font/alpino-bold-webfont.woff2') format('woff2'),
+         url('../font/alpino-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alpinolight';
+    src: url('../font/alpino-light-webfont.woff2') format('woff2'),
+         url('../font/alpino-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alpinomedium';
+    src: url('../font/alpino-medium-webfont.woff2') format('woff2'),
+         url('../font/alpino-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alpinoregular';
+    src: url('../font/alpino-regular-webfont.woff2') format('woff2'),
+         url('../font/alpino-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alpinothin';
+    src: url('../font/alpino-thin-webfont.woff2') format('woff2'),
+         url('../font/alpino-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alpino_variableregular';
+    src: url('../font/alpino-variable-webfont.woff2') format('woff2'),
+         url('../font/alpino-variable-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'eskoolregular';
+    src: url('../font/eskool-regular-webfont.woff2') format('woff2'),
+         url('../font/eskool-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---ESKOOL---*/
+.eskool_h1 {
+  font-family: Eskool;
+  font-size: 3.812em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 81.5%; /* 49.711px */
+}
+.eskool_h2 {
+  font-family: Eskool;
+  font-size: 3.084em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 81.5%; /* 40.216px */
+}
+.eskool_h3 {
+  font-family: Eskool;
+  font-size: 2.356em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 81.5%; /* 30.724px */
+}
+.eskool_h4 {
+  font-family: Eskool;
+  font-size: 1.906em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 81.5%; /* 24.856px */
+}
+.eskool_h5 {
+  font-family: Eskool;
+  font-size: 1.456em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 81.5%; /* 18.989px */
+}
+.eskool_h6 {
+  font-family: Eskool;
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 81.5%; /* 11.736px */
+}
+.p {
+  font-family: Eskool;
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 81.5%; /* 11.736px */
+}
+
+/*---ALPINO---*/
+.alpino_h1 {
+  font-family: Alpino;
+  font-size: 4.236em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.5%; /* 79.633px */
+}
+
+.alpino_h2 {
+  font-family: Alpino;
+  font-size: 3.427em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.5%; /* 64.423px */
+}
+
+.alpino_h3 {
+  font-family: Alpino;
+  font-size: 2.618em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 118.2%; /* 49.51px */
+}
+
+.alpino_h4 {
+  font-family: Alpino;
+  font-size: 2.118em;
+  font-style: normal;
+  font-weight: 507;
+  line-height: 117.5%; /* 39.817px */
+}
+
+.alpino_h5 {
+  font-family: Alpino;
+  font-size: 1.618em;
+  font-style: normal;
+  font-weight: 421;
+  line-height: 117.5%; /* 30.418px */
+}
+
+.alpino_h6 {
+  font-family: Alpino;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 507;
+  line-height: 117.5%; /* 18.8px */
+}
+
+.alpino_p {
+  font-family: Alpino;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 421;
+  line-height: 117.5%; /* 18.8px */
+}
+
+
+/*------TEXT COLORS------*/
+.white {
+    color: var(--main-colorsblanc-deskiz, rgba(255, 255, 255, 1));
+}
+.black {
+    color: var(--main-colorsbleu-fonc-deskiz, rgba(3, 43, 68, 1));
+}
+.yellow {
+    color: var(--main-colorsjaune-deskiz, rgba(253,200,0,1));
+}
+.blue {
+    color: var(--main-colorsbleu-deskiz, rgba(4, 216, 216, 1));
+}
+.red {
+    color: var(--main-colorsrouge-deskiz, rgba(255, 65, 76, 1));
+}
+.green {
+    color: var(--main-colorsgreen-deskiz, rgba(4, 216, 114, 1));
+}
+
+
+/*------ROOT FROM FIGMA------*/
+:root {
+    --main-colorsblanc-deskiz: rgba(255, 255, 255, 1);
+    --main-colorsbleu-fonc-deskiz: rgba(3, 43, 68, 1);
+    --main-colorsjaune-deskiz: rgba(253,200,0,1);
+    --main-colorsrouge-deskiz: rgba(255, 65, 76, 1);
+    --main-colorsbleu-deskiz: rgba(4, 216, 216, 1);
+    --main-colorsgreen-deskiz: rgba(4, 216, 114, 1);
+    --secondary-colorsjaune-blanc-cass-deskiz: rgba(255, 250, 232, 1);
+    --secondary-colorsbleu-deskiz-cass: rgba(3, 166, 166, 1);
+    --secondary-colorsrouge-deskiz-cass: rgba(219, 55, 63, 1);
+    --secondary-colorsjaune-deskiz-cass: rgba(190, 154, 20, 1);
+    --secondary-colorsbleu-blanc-deskiz: rgba(241, 250, 255, 1);
+    --secondary-colorsjaune-blanc-deskiz: rgba(254, 241, 191, 1);
+    --secondary-colorsbleu-cass-deskiz: rgba(100, 135, 156, 1);
+    --secondary-colorsvert-deskiz-cass: rgba(3, 171, 90, 1);
+    --secondary-colorsrouge-blanc-cass-deskiz: rgba(255, 249, 249, 1);
+    --specificspanel-hover-button: rgba(10, 58, 88, 1);
+    --specificsdark-blue-selected: rgba(0, 27, 38, 1);
+    --specificspurple-for-stats: rgba(157, 79, 219, 1);
+    --red-deskiz10-red: rgba(255, 65, 76, 1);
+    --red-deskiz20-red: rgba(255, 65, 76, 1);
+    --red-deskiz40-red: rgba(255, 65, 76, 1);
+    --red-deskiz60-red: rgba(255, 65, 76, 1);
+    --red-deskiz80-red: rgba(255, 65, 76, 1);
+    --red-deskiz120-red: rgba(255, 65, 76, 1);
+    --red-deskiz140-red: rgba(255, 65, 76, 1);
+    --red-deskiz160-red: rgba(255, 65, 76, 1);
+    --red-deskiz180-red: rgba(255, 65, 76, 1);
+    --red-deskiz190-red: rgba(255, 65, 76, 1);
+    --blue-deskiz10-blue: rgba(4, 216, 216, 1);
+    --blue-deskiz20-blue: rgba(4, 216, 216, 1);
+    --blue-deskiz40-blue: rgba(4, 216, 216, 1);
+    --blue-deskiz60-blue: rgba(4, 216, 216, 1);
+    --blue-deskiz80-blue: rgba(4, 216, 216, 1);
+    --blue-deskiz120-blue: rgba(4, 216, 216, 1);
+    --blue-deskiz140-blue: rgba(4, 216, 216, 1);
+    --blue-deskiz160-blue: rgba(4, 216, 216, 1);
+    --blue-deskiz180-blue: rgba(4, 216, 216, 1);
+    --blue-deskiz190-blue: rgba(4, 216, 216, 1);
+    --yellow-deskiz10-yellow: rgba(253, 200, 0, 1);
+    --yellow-deskiz20-yellow: rgba(253, 200, 0, 1);
+    --yellow-deskiz40-yellow: rgba(253, 200, 0, 1);
+    --yellow-deskiz60-yellow: rgba(253, 200, 0, 1);
+    --yellow-deskiz80-yellow: rgba(253, 200, 0, 1);
+    --yellow-deskiz120-yellow: rgba(253, 200, 0, 1);
+    --yellow-deskiz140-yellow: rgba(253, 200, 0, 1);
+    --yellow-deskiz160-yellow: rgba(253, 200, 0, 1);
+    --yellow-deskiz180-yellow: rgba(253, 200, 0, 1);
+    --yellow-deskiz190-yellow: rgba(253, 200, 0, 1);
+    --green-deskiz10-green: rgba(4, 216, 114, 1);
+    --green-deskiz20-green: rgba(4, 216, 114, 1);
+    --green-deskiz40-green: rgba(4, 216, 114, 1);
+    --green-deskiz60-green: rgba(4, 216, 114, 1);
+    --green-deskiz80-green: rgba(4, 216, 114, 1);
+    --green-deskiz120-green: rgba(4, 216, 114, 1);
+    --green-deskiz140-green: rgba(4, 216, 114, 1);
+    --green-deskiz160-green: rgba(4, 216, 114, 1);
+    --green-deskiz180-green: rgba(4, 216, 114, 1);
+    --green-deskiz190-green: rgba(4, 216, 114, 1);
+    --blueblack-deskiz10-blueblack: rgba(3, 43, 68, 1);
+    --blueblack-deskiz20-blueblack: rgba(3, 43, 68, 1);
+    --blueblack-deskiz40-blueblack: rgba(3, 43, 68, 1);
+    --blueblack-deskiz60-blueblack: rgba(3, 43, 68, 1);
+    --blueblack-deskiz80-blueblack: rgba(3, 43, 68, 1);
+    --blueblack-deskiz120-blueblack: rgba(3, 43, 68, 1);
+    --blueblack-deskiz140-blueblack: rgba(3, 43, 68, 1);
+    --blueblack-deskiz160-blueblack: rgba(3, 43, 68, 1);
+    --blueblack-deskiz180-blueblack: rgba(3, 43, 68, 1);
+    --blueblack-deskiz190-blueblack: rgba(3, 43, 68, 1);
+}
